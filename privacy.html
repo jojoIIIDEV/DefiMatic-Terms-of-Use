@@ -1,52 +1,271 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-  <meta charset="UTF-8">
-  <title>DéfiMatic - Confidentialité</title>
-  <style>
-    body {
-      font-family: Arial;
-      background: linear-gradient(to bottom right, #0a0a0a, #120000, #2a0000, #5a0a0a);
-      color:white; padding:40px;
-    }
-    h1 {
-      color:#f472b6;
-    }
-    h2 {
-      color:#60a5fa;
-    }
-    code {
-      background:#1f1f1f;
-      padding:2px 5px;
-      border-radius:5px;
-      display:block;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DéfiMatic - Politique de confidentialité</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(to bottom right, #0a0a0a, #120000, #2a0000, #5a0a0a);
+            color: #ffffff;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 50px 25px;
+        }
+
+        h1 {
+            color: #4ade80;
+            text-align: center;
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #bfbfbf;
+            margin-bottom: 50px;
+        }
+
+        h2 {
+            color: #60a5fa;
+            margin-top: 40px;
+        }
+
+        p,
+        li {
+            line-height: 1.8;
+            color: #dddddd;
+        }
+
+        ul {
+            padding-left: 25px;
+        }
+
+        strong {
+            color: #4ade80;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #444;
+            margin: 45px 0;
+        }
+
+        .footer {
+            text-align: center;
+            color: #999;
+            font-size: 14px;
+        }
+
+        .nav {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .nav a {
+            color: #4ade80;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 12px;
+        }
+
+        .nav a:hover {
+            text-decoration: underline;
+        }
+
+        .card {
+            background: rgba(255,255,255,.04);
+            border: 1px solid rgba(255,255,255,.08);
+            border-radius: 12px;
+            padding: 25px;
+            margin-top: 25px;
+        }
+
+    </style>
+
 </head>
+
 <body>
 
-<h1>  Politique de confidentialité - DéfiMatic</h1>
+<div class="container">
 
-<p>Le bot <strong>DéfiMatic</strong> stocke uniquement les données nécessaires à son fonctionnement.</p>
+<h1>🔐 Politique de confidentialité</h1>
 
-<h2>  Données collectées</h2>
+<p class="subtitle">
+Dernière mise à jour : 2025
+</p>
+
+<div class="card">
+
+<p>
+La présente Politique de confidentialité décrit les données collectées par le bot Discord
+<strong>DéfiMatic</strong>, développé par <strong>jojoIII</strong> au sein de l'équipe de développement
+<strong>BieMan</strong>.
+</p>
+
+<p>
+En utilisant DéfiMatic, vous acceptez les pratiques décrites dans cette politique.
+</p>
+
+</div>
+
+<h2>1. Données collectées</h2>
+
+<p>DéfiMatic collecte uniquement les informations nécessaires à son fonctionnement.</p>
 
 <ul>
-  <li>ID et informations du serveur (guild ID, nom, description, membre count, date de création)</li>
-  <li>Configuration du bot (channels, rôles, paramètres de défis et sondages)</li>
-  <li>Défis créés (nom, durée, auteur)</li>
-  <li>Données des membres (statistiques, rôles, activité)</li>
-  <li>Processus en cours (sondages et défis actifs)</li>
+
+<li>Identifiant du serveur Discord (Guild ID)</li>
+
+<li>Nom et description du serveur</li>
+
+<li>Date de création du serveur</li>
+
+<li>Nombre de membres lors de l'ajout du bot</li>
+
+<li>Configuration du bot
+    <ul>
+        <li>Salon des sondages</li>
+        <li>Forum des défis</li>
+        <li>Rôles à notifier</li>
+        <li>Durée des sondages</li>
+        <li>Durée minimale et maximale des défis</li>
+        <li>Nombre maximal de défis simultanés</li>
+        <li>Nombre de défis par sondage</li>
+    </ul>
+</li>
+
+<li>Défis enregistrés
+    <ul>
+        <li>Nom</li>
+        <li>Durée</li>
+        <li>Auteur</li>
+    </ul>
+</li>
+
+<li>Statistiques des membres
+    <ul>
+        <li>Identifiant Discord</li>
+        <li>Dernier défi</li>
+        <li>Nombre de défis joués</li>
+        <li>Nombre de défis créés</li>
+        <li>Historique des rôles suivis</li>
+        <li>Galerie personnelle (fonction en développement)</li>
+    </ul>
+</li>
+
+<li>État des défis et sondages en cours.</li>
+
 </ul>
 
-<h2>  Utilisation des données</h2>
-<p>Les données sont utilisées uniquement pour faire fonctionner les fonctionnalités du bot.</p>
+<h2>2. Utilisation des données</h2>
 
-<h2>  Partage des données</h2>
-<p>Aucune donnée n'est vendue ou partagée avec des tiers.</p>
+<p>Les données sont utilisées exclusivement afin de :</p>
 
-<h2>  Suppression des données</h2>
-<p>Les données peuvent être supprimées en retirant le bot du serveur.</p>
+<ul>
+
+<li>faire fonctionner DéfiMatic ;</li>
+
+<li>gérer automatiquement les défis ;</li>
+
+<li>organiser les sondages ;</li>
+
+<li>conserver les statistiques des membres ;</li>
+
+<li>mémoriser la configuration propre à chaque serveur ;</li>
+
+<li>corriger les bugs et améliorer le bot.</li>
+
+</ul>
+
+<h2>3. Données non collectées</h2>
+
+<p>DéfiMatic ne collecte volontairement pas :</p>
+
+<ul>
+
+<li>les mots de passe ;</li>
+
+<li>les adresses e-mail ;</li>
+
+<li>les messages privés Discord ;</li>
+
+<li>les informations bancaires ;</li>
+
+<li>les contenus personnels ne participant pas au fonctionnement du bot.</li>
+
+</ul>
+
+<h2>4. Conservation des données</h2>
+
+<p>
+Les données sont conservées aussi longtemps que nécessaire au fonctionnement du bot.
+Certaines données sont persistantes et ne peuvent actuellement être supprimées que manuellement par le développeur.
+</p>
+
+<h2>5. Partage des données</h2>
+
+<p>
+Les données ne sont ni vendues, ni louées, ni transmises à des tiers.
+</p>
+
+<h2>6. Sécurité</h2>
+
+<p>
+Des mesures raisonnables sont mises en œuvre afin de limiter l'accès aux données enregistrées.
+Toutefois, aucun système informatique ne peut garantir une sécurité absolue.
+</p>
+
+<h2>7. Hébergement</h2>
+
+<p>
+DéfiMatic est actuellement hébergé localement.
+Le service est fourni sans garantie de disponibilité permanente et peut être interrompu à tout moment.
+</p>
+
+<h2>8. Modifications</h2>
+
+<p>
+Cette Politique de confidentialité peut être modifiée à tout moment afin de refléter les évolutions du bot.
+</p>
+
+<h2>9. Contact</h2>
+
+<p>
+Pour toute question, suggestion ou demande concernant vos données, vous pouvez contacter le développeur sur Discord :
+</p>
+
+<p>
+<strong>jojoiii42</strong>
+</p>
+
+<hr>
+
+<div class="footer">
+© 2025 DéfiMatic • Développé par <strong>BieMan</strong>
+</div>
+
+<div class="nav">
+<a href="index.html">🏠 Accueil</a>
+<a href="terms.html">📄 Conditions d'utilisation</a>
+<a href="privacy.html">🔐 Politique de confidentialité</a>
+</div>
+
+</div>
 
 </body>
+
 </html>
